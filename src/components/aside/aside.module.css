@@ -1,0 +1,81 @@
+.menuLink a{
+    display: flex;
+    align-items: center;
+    color: #909090;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: .2s;
+}
+.menuLink::before{
+ content: "";
+ position: absolute;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 100%;
+ transition: .2s;
+ background: #FF5454;
+ z-index: -1;
+ border-radius: 15px;
+}
+.menuLink a svg{
+    fill:  #909090;
+    stroke: #909090;
+    transition: .2s;
+    
+}
+
+.menulist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menuLink{
+    list-style: none;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.menuLink a > div{
+    width: 46px;
+    height: 46px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    transition: .2s;
+}
+
+.menuLink a > span{
+    display: block;
+    width: calc(100% - 46px);
+    text-align: center;
+}
+.menuLink:hover a,
+.menuLink.active a{
+   
+    transition: .2s;
+    color: white;
+}
+.menuLink:hover a > div,
+.menuLink.active a > div{
+    background: #DF4545;
+    transition: .2s;
+
+}
+.menuLink:hover a > div svg,
+.menuLink.active a > div svg{
+    fill: white;
+    stroke: white;
+    transition: .2s;
+
+}
+.menuLink.active::before,
+.menuLink:hover::before{
+    right: 0;
+    transition: .2s;
+}
+

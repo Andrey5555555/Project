@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.categories{
+    align-items: center;
+    width: 135px;
+    height: 160px;
+    background: #F3F3F3;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.categories h2{
+    font-size: 17px;
+    align-items: center;
+}
+
+.categories img{
+display: block;
+}

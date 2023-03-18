@@ -1,0 +1,32 @@
+.hell{
+  width: 25%;
+  padding: 30px;
+}
+
+.hell p{
+    width: 100%;
+    font-weight: 600;
+    font-size: 10px;
+    color: #898686;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hell img{
+    height: 125px;
+    margin: 0 auto;
+    display: block;
+}
+
+.hellwrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -30px;
+}
+
+.description{
+    padding: 56px 28px 11px 28px;
+    margin-top: -50px;
+    border-radius: 30px;
+    border: 1px solid #F2EEEE;
+}

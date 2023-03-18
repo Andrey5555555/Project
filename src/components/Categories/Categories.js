@@ -1,6 +1,7 @@
 import css from "./categories.module.css"
 import allimg from "../../icons/food7.png" 
 import { useMemo } from "react"
+import classNames from "classnames"
 const Categories_data = require("../../categories.json")
 
 
@@ -10,7 +11,7 @@ function Categories ({active,setActive}){
     const data = useMemo(() => [...Categories_data,{alias: "all", image: allimg ,title: "All"}], [])
     console.log(data);
     return (<div className={css.list}>{data.map(function(product){
-        return (<div className={css.categories} onClick={function(){setActive(product.alias)}}>
+        return (<div className={classNames(css.categories, active===product.alias? css.active:null)} onClick={function(){setActive(product.alias)}}>
         <img src={product.image}></img>
         <h2 style={active===product.alias? {color:"red"}:{}}> {product.title}</h2>
         </div>)})}</div>)

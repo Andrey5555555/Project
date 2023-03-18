@@ -1,8 +1,10 @@
 .list {
   display: flex;
   justify-content: space-between;
-
-}
+  margin-top: 32px;
+  margin-bottom: 46px;
+  font-size: 24px;
+  }
 
 .categories{
     align-items: center;
@@ -23,3 +25,8 @@
 .categories img{
 display: block;
 }
+
+.active{
+  box-shadow: 0px 4px 46px rgba(0, 0, 0, 0.1);
+} 
+

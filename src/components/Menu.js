@@ -11,9 +11,12 @@ function Menu (){
     const[active, setActive] = useState("burger")
     const data = Menu_data.filter(function(menu){return menu.category===active|| active==="all"})
     return (<div>
+        <h1>Menu</h1>
+        
         <Categories active={active} 
         setActive={setActive}>
         </Categories>
+        <h2>All Items</h2>
         <Products data = {data}></Products>
         </div>)
     

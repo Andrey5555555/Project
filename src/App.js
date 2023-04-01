@@ -1,5 +1,5 @@
 import './App.css';
-import Home from "./components/Home"
+import Home from "./components/home/Home"
 import Menu from "./components/Menu"
 import Trending from "./components/Trending"
 import Setings from "./components/Setings"

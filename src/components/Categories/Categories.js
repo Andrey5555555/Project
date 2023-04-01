@@ -13,7 +13,7 @@ function Categories ({active,setActive}){
     return (<div className={css.list}>{data.map(function(product){
         return (<div className={classNames(css.categories, active===product.alias? css.active:null)} onClick={function(){setActive(product.alias)}}>
         <img src={product.image}></img>
-        <h2 style={active===product.alias? {color:"red"}:{}}> {product.title}</h2>
+        <h2> {product.title}</h2>
         </div>)})}</div>)
 }
 

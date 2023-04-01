@@ -3,7 +3,7 @@
         "title": "Burger Wanted",
         "description": "Rels, Zoodies, Garnein Sesasam Dessigns, Redeshchein, Avocade",
         "price": 29,
-        "category": "pizza",
+        "category": "Burger",
         "image": "burger.png",
         "trend": true
     },
@@ -11,56 +11,166 @@
         "title": "Butter Chicken",
         "description": "Reis, Sous-vide Chicken,Penaut Satay, Babyspian",
         "price": 29,
-        "category": "burger",
-        "image": "food2.png",
+        "category": "Pizza",
+        "image": "pizza1.png",
         "trend": true 
     },
     {
         "title": "Hi, Salmon",
         "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
         "price": 29,
-        "category": "burger",
-        "image": "food1.png",
+        "category": "Salads",
+        "image": "salats.jpg",
         "trend": true 
     },
     {
         "title": "Hi, Salmon",
         "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
         "price": 29,
-        "category": "burger",
-        "image": "food1.png",
+        "category": "Salads",
+        "image": "salat1.PNG",
+        "trend": true 
+    },
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Pizza",
+        "image": "pizza2.PNG",
+        "trend": true 
+    },
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Donut",
+        "image": "donut.png",
         "trend": true 
     },
     {
         "title": "Burger Wanted",
         "description": "Rels, Zoodies, Garnein Sesasam Dessigns, Redeshchein, Avocade",
         "price": 29,
-        "category": "burger",
-        "image": "burger.png",
+        "category": "Drinks",
+        "image": "cocacola.png",
         "trend": true
     },
     {
         "title": "Butter Chicken",
         "description": "Reis, Sous-vide Chicken,Penaut Satay, Babyspian",
         "price": 29,
-        "category": "burger",
-        "image": "food2.png",
+        "category": "Donut",
+        "image": "donut1.png",
         "trend": true 
     },
     {
         "title": "Hi, Salmon",
         "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
         "price": 29,
-        "category": "burger",
-        "image": "food1.png",
+        "category": "Donut",
+        "image": "donut2.png",
         "trend": true 
     },
     {
         "title": "Hi, Salmon",
         "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
         "price": 29,
-        "category": "burger",
-        "image": "food1.png",
+        "category": "Salads",
+        "image": "salat2.png",
+        "trend": true 
+    },
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Drinks",
+        "image": "pepsi.png",
+        "trend": true 
+    },
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Drinks",
+        "image": "fanta.png",
+        "trend": true 
+    },
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Pizza",
+        "image": "pizza3.png",
+        "trend": true 
+    },
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Pizza",
+        "image": "pizza4.png",
         "trend": true 
     }
+    ,
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Drinks",
+        "image": "sandora.png",
+        "trend": true 
+    }
+    ,
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Salads",
+        "image": "salat3.png",
+        "trend": true 
+    }
+    ,
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Salats",
+        "image": "salat2.png",
+        "trend": true 
+    }
+    ,
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Donut",
+        "image": "donut4.png",
+        "trend": true 
+    },
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Burger",
+        "image": "burger1.png",
+        "trend": true 
+    },
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Burger",
+        "image": "burger2.png",
+        "trend": true 
+    },
+    {
+        "title": "Hi, Salmon",
+        "description": "Rels, Zoodies, Garnein,Dressings, AvacodeEdanmame, Maris.",
+        "price": 29,
+        "category": "Burger",
+        "image": "burger3.png",
+        "trend": true 
+    }
+
+
 ]

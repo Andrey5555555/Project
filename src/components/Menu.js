@@ -8,7 +8,7 @@ const Menu_data = require("../products.json")
 
 function Menu (){
     console.log(Categories_data)
-    const[active, setActive] = useState("burger")
+    const[active, setActive] = useState("all")
     const data = Menu_data.filter(function(menu){return menu.category===active|| active==="all"})
     return (<div>
         <h1>Menu</h1>

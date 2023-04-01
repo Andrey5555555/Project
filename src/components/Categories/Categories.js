@@ -8,7 +8,11 @@ const Categories_data = require("../../categories.json")
 
 function Categories ({active,setActive}){
     console.log(active)
-    const data = useMemo(() => [...Categories_data,{alias: "all", image: allimg ,title: "All"}], [])
+    const data = useMemo(() => {
+        const Categoriesdata = [...Categories_data]
+        Categoriesdata.unshift({alias: "all",image: allimg ,title: "All"})
+        return Categoriesdata
+    }, [])
     console.log(data);
     return (<div className={css.list}>{data.map(function(product){
         return (<div className={classNames(css.categories, active===product.alias? css.active:null)} onClick={function(){setActive(product.alias)}}>

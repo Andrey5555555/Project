@@ -19,8 +19,8 @@ const Menu_data = require("../../products.json")
 
 
 function Home (){
-    const[active, setActive] = useState("burger")
-    const data = Menu_data.filter(function(menu){return menu.category===active|| active==="all"})
+    const[active, setActive] = useState("all")
+    const data = Menu_data.filter(function(menu){return menu.category===active|| active==="all"}).slice(0,8)
     console.log(css);
     return (<div>
         <h1>Welcome <br></br>Lucknow <img src={emoji}></img> </h1>
@@ -55,7 +55,7 @@ function Home (){
                 <div className={css.articles}><h2>Articles</h2>
                 <ul>
                     <li><img src={chicken}></img><h6>How to cook turkey on Natural Gas <img src={coment}></img></h6></li>
-                    <li><img src={virus}></img><h6>Corona virus update:3,43,287+ cases<img src={coment}></img></h6></li>
+                    <li><img src={virus}></img><h6>Corona virus update:343287+ cases<img src={coment}></img></h6></li>
                     <li><img src={cockie}></img><h6>Tasty chunk donutes with chocolate<img src={coment}></img></h6></li>
                     <li><img src={pizza}></img><h6>Home made double cheez with popcorn respies<img src={coment}></img></h6></li>
                 </ul>

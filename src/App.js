@@ -14,7 +14,6 @@ const Route_data =
 [
 {icon:homeicon, url:"/",title:"Home", Component:Home},
 {icon:menuicon, url:"/menu",title:"Menu", Component:Menu},
-{icon:setingsicon, url:"/setings",title:"Setings", Component:Setings},
 {icon:fireicon, url:"/trending",title:"Trending", Component:Trending}]
 
 function App() {
